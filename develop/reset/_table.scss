@@ -1,0 +1,35 @@
+.table {
+  border: 2px solid white;
+
+  td,th {
+    border-top: 2px solid white;
+  }
+
+  thead {
+    th {
+      border-bottom: 2px solid white;
+    }
+  }
+
+  .thead-dark {
+    th {
+      background-color: black;
+      border-color: white;
+    }
+  }
+}
+
+.table-dark {
+  background-color: black;
+  border: 2px solid white;
+
+  td,th,thead th {
+    border-color: white;
+  }
+}
+
+.table-bordered {
+  td,th {
+    border: 2px solid white;
+  }
+}

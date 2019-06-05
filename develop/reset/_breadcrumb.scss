@@ -1,0 +1,14 @@
+.breadcrumb {
+  background-color: black;
+  border: 2px solid white;
+
+  .breadcrumb-item {
+    &::before {
+      color: white;
+    }
+
+    &.active {
+      color: white;
+    }
+  }
+}

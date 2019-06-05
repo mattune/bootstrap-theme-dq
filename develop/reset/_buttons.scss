@@ -1,0 +1,45 @@
+.btn {
+  transition-duration: 0s;
+}
+
+.btn-link {
+  color: white;
+
+  &:before {
+    content: '▶';
+    font-size: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  &:hover {
+    color: white;
+  }
+}
+
+.btn-secondary {
+  background-color: black;
+  border: 2px solid white;
+
+  &:hover,
+  &:active {
+    background-color: white !important;
+    border-color: white !important;
+    color: black !important;
+  }
+}
+
+.show {
+  .btn-secondary {
+    &.dropdown-toggle {
+      background-color: white;
+      border-color: white;
+      color: black;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.page-item {
+  .page-link {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+  }
+
+  &.disabled {
+    .page-link {
+      background-color: black;
+      color: gray;
+    }
+  }
+
+  &.active {
+    .page-link {
+      border-color: white;
+      background-color: white;
+      color: black;
+    }
+  }
+}

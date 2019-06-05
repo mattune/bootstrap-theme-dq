@@ -1,0 +1,38 @@
+{
+  "name": "dq-theme-css",
+  "description": "Css theme like DQ",
+  "version": "0.1",
+  "keywords": [
+    "css",
+    "sass",
+    "web"
+  ],
+  "homepage": "https://github.com/mattune/dq-theme-css#readme",
+  "author": "mattune",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "style": "release/dq-theme.css",
+  "main": "release/dq-theme",
+  "sass": "develop/_sass/dq-theme.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattune/dq-theme-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattune/dq-theme-css/issues"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "formula-css": "0.0.9",
+    "gulp": "^4.0.2"
+  }
+}

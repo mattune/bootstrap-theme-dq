@@ -1,0 +1,40 @@
+.alert {
+  background-color: black;
+  border-width: 2px;
+
+  .alert-link {
+    color: white !important;
+  }
+}
+
+.alert-primary {
+  border-color: #004085;
+}
+
+.alert-secondary {
+  border-color: #383d41;
+}
+
+.alert-success {
+  border-color: #155724;
+}
+
+.alert-danger {
+  border-color: #721c24;
+}
+
+.alert-warning {
+  border-color: #856404;
+}
+
+.alert-info {
+  border-color: #0c5460;
+}
+
+.alert-light {
+  border-color:#818182;
+}
+
+.alert-dark {
+  border-color: #1b1e21;
+}

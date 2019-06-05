@@ -1,0 +1,11 @@
+.card {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  position: relative;
+
+  .card-header {
+    border-color: white;
+    border-width: 2px;
+  }
+}

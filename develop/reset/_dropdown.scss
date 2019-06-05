@@ -1,0 +1,27 @@
+.dropdown-menu {
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+
+  .dropdown-item {
+    border: none;
+    border-radius: 0;
+    color: white;
+
+    &:hover {
+      background-color: transparent;
+
+      &:before {
+        opacity: 1;
+      }
+    }
+
+    &:before {
+      content: '▶';
+      display: inline-block;
+      margin-right: 10px;
+      opacity: 0;
+      font-size: 10px;
+    }
+  }
+}
